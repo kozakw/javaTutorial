@@ -6,7 +6,11 @@ public class InheritanceMain {
 
         Circle c2 = new Circle();
 
+        c1.getRadius();
+        c1.setRadius(10);
+        c1.getX();
 
+        System.out.println(c1.getX());
     }
 
 }

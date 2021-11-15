@@ -8,8 +8,19 @@ public class Circle extends  Point2D{
         this.radius = radius;
     }
 
+
     public Circle(){
         // super(10, 10); // I can't have super() and this() in constructor
         this(1,1,5); //it refers to fist constructor
+
+
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 }

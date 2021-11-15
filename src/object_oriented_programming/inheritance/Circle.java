@@ -23,4 +23,8 @@ public class Circle extends  Point2D{
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+    public double calculateSurface(){
+        return Math.pow(this.radius, 2) * Math.PI;
+    }
 }

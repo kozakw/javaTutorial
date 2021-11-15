@@ -11,6 +11,9 @@ public class InheritanceMain {
         c1.getX();
 
         System.out.println(c1.getX());
+
+        Cylinder cyl1 = new Cylinder( 2,3,5,4);
+        System.out.println(cyl1.calculateVolume());
     }
 
 }

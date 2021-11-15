@@ -21,6 +21,8 @@ public class Cylinder extends Circle {
     }
 
     public double calculateVolume(){
-        return calculateSurface() * height;
+        return super.calculateSurface() * this.height;
+        //super() used to mark that it becomes from other class and using this() used to mark that this variable is from
+        //current class
     }
 }
